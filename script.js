@@ -44,7 +44,7 @@ async function obtenerPokemonAleatorio() {
 
         container.innerHTML = `
             <h2 class="fs-1 my-3">${randomPokemon.name}</h2>
-            <img class="w-25" src="${imageUrl}" alt="${randomPokemon.name}" />
+            <img class="w-25" src="${imageUrl}" alt="${randomPokemon.name} - Imagen no Disponible" />
         `;
     } else {
         container.textContent = 'Cargando datos...';
